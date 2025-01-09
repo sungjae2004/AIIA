@@ -41,7 +41,8 @@
   - foward propagation 한번 해서 값들을 구해 놓고
     backpropagation을 통해 미분 값을 구한다 -> 그리고 SGD 사용하면 끝
   ![image](https://github.com/user-attachments/assets/eced3c78-fce5-4f71-bcaa-935dc3b8e864)
-  ![image](https://github.com/user-attachments/assets/3381687f-e966-4320-930b-bb24aa8e571b)
+  ![image](https://github.com/user-attachments/assets/0a4ac312-8311-47a0-bcd0-c49b56a5889f)
+
   ![image](https://github.com/user-attachments/assets/b0d12447-a881-4466-9ddf-04a3bc9b38e3)
   ![image](https://github.com/user-attachments/assets/b9c4f4b1-b6b8-41ec-a33e-22beb83e4c5e)
 

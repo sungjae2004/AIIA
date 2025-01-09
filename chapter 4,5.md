@@ -31,11 +31,20 @@
   - 정보 손실을 막기 위해
 
   # Backpropagation
+  - 특정 파라미터(weight/bias) 에 대한 Loss function의 편미분 값인 그래디언트를 구하고,
+  - SGD (Stochastic gradient descent) 등의 Optimizer 로 최적의 파라미터를 업데이트한다. 
+
   - 깊은 곳 weight에 대한 편미분은 cain rule로 구한다
   - 미분이 뒤로 전달되니까 backpropagation
   - path 전부 고려해서 더해줘야 함
   - 액웨액웨액웨 액나
   - foward propagation 한번 해서 값들을 구해 놓고
     backpropagation을 통해 미분 값을 구한다 -> 그리고 SGD 사용하면 끝
+  ![image](https://github.com/user-attachments/assets/eced3c78-fce5-4f71-bcaa-935dc3b8e864)
+  ![image](https://github.com/user-attachments/assets/3381687f-e966-4320-930b-bb24aa8e571b)
+  ![image](https://github.com/user-attachments/assets/b0d12447-a881-4466-9ddf-04a3bc9b38e3)
+  ![image](https://github.com/user-attachments/assets/b9c4f4b1-b6b8-41ec-a33e-22beb83e4c5e)
+
+  -> https://deep-learning-basics.tistory.com/10 계산법 참조
   
   

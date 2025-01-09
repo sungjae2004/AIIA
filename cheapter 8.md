@@ -25,8 +25,11 @@
 
 # Loss landscape가 꼬불해지는 문제
 ![image](https://github.com/user-attachments/assets/70f3bff6-88a9-4538-9833-1612027ab017)
+
 -> 층이 너무 깊어도 학습이 안되는 문제가 발생함 
+
 ![image](https://github.com/user-attachments/assets/105982ef-35b2-4809-ad25-75aa04cfd5bb)
+
 -> ResNet이 대표적인 해결방안 
 
 - 깊게 만들수록 loss 모양이 이상해짐

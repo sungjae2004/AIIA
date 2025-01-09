@@ -37,6 +37,8 @@
    - loss 함수 뭐 쓸지
    - 최적화 기법 뭐 쓸지
 ## Momentum
+![image](https://github.com/user-attachments/assets/f2725b88-ded9-439d-8756-6b0ed3a8c843)
+
 - 그라디언트를 누적함으로써 관성을 가지게 함
 
 ## RMSprop
@@ -44,6 +46,13 @@
   경사보고 가파른쪽은 조심하고 완만한 쪽은 과감하게
 
 ## Adom
+
+
 - 방향은 관성을 가지게
 - 보폭은 가파른 쪽은 조심조심 완만한 쪽은 과감하개
 - 어차피 모든게 element-wise라서 각각에 대한 편미분만 보면 됨
+
+![image](https://github.com/user-attachments/assets/04b0d238-aa13-4dae-8bcc-03da16056dc0)
+
+-> 여기서 mt는 방향이 관성을 가지게 하는 momentum 역할을 하고, vt는 보폭이 가파른 쪽은 조심하고 완만한 쪽은 과감하게 이동하게 하는 RMSProp의 역할을 한다. 
+
